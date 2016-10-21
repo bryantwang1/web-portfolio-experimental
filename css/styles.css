@@ -1,0 +1,222 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+body {
+  background:  url(../img/seigaiha.png), linear-gradient(to bottom, rgba(131, 171, 175, 0.1), rgba(131, 171, 175, 0.9));
+  height: 100%;
+  background-attachment: fixed;
+  text-align: center;
+}
+/* Background image from subtlepatterns.com, made by Olga Libby */
+
+.custom-container {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  background-color: white;
+  text-align: left;
+}
+
+#porfolio-flex {
+  display: inline-flex;
+}
+
+h1 {
+  padding-top: 7%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  margin-left: 3%;
+  font-family: sans-serif;
+}
+
+h6 {
+  margin-left: 3%;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.page-header-style {
+  background-color: rgba(61, 69, 104, 0.9);
+  width: inherit;
+}
+
+p {
+  margin-top: 2%;
+  font-size: 16px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.box {
+  border: 2px solid rgba(61, 69, 104, 0.3);
+  margin: 2%;
+  width: 85%;
+  background-color: rgba(223, 225, 236, 0.5);
+}
+
+#left-box {
+  margin-right: 1%;
+}
+
+#right-box {
+  margin-left: 1%;
+}
+
+#introPar {
+  text-align: center;
+}
+
+#introPar img {
+  padding-top: 20px;
+}
+
+#introCap {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin-left: 4%;
+  list-style: square;
+}
+
+ol {
+  margin-left: 4%;
+  list-style: lower-greek;
+}
+
+strong {
+  font-size: 110%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:link, a:visited {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: purple;
+}
+
+.customnav {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.customnav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 0%;
+}
+
+.customnav ul li {
+  float: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 120px;
+}
+
+.customnav ul li a {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.customnav ul li a:link, .customnav ul li a:visited {
+
+}
+
+.customnav ul li a:hover, .customnav ul li a:active {
+  color: lightblue;
+}
+
+#nav1 {
+
+}
+
+.customnav ul li a.currentpage {
+  color: gray;
+  font-weight: normal;
+}
+
+.portfolio ul, .portfolio ol {
+  padding: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 1.1;
+}
+
+.portfolio ol li {
+  line-height: 0.9;
+}
+
+.portfolio ul li {
+  line-height: 1.2;
+  padding-bottom: 5px;
+}
+
+.portfolio p {
+  padding-bottom: 12px;
+}
+
+.portfolio li a {
+  font-weight: 900;
+}
+
+/* A class created solely for demonstrating the use of a span */
+.spanDemonstrator {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  #introPar img {
+    width: 90vw;
+  }
+
+  .custom-container {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .customnav ul li {
+    float: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+}
